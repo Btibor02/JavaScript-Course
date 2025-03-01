@@ -64,3 +64,25 @@ document.getElementById("mySubmit").onclick = function(){
     username2 = document.getElementById("myText").value;
     document.getElementById("h1").textContent = `Hello ${username2}`;
 }*/
+
+// ! Type conversion - Episode 5
+
+/*let age = window.prompt("How old are you?"); // ? this will be a string!
+age = Number(age);
+age+=1;
+
+let x = "pizza"
+let y = "pizza"
+let z = "pizza"
+
+x = Number(x); // ? Nan
+y = String(y); // ? string
+z = Boolean(z); // ? true
+
+let x1 = ""
+let y1 = ""
+let z1 = ""
+
+x1 = Number(x1); // ? 0
+y1 = String(y1); // ? 
+z1 = Boolean(z1); // ? false */

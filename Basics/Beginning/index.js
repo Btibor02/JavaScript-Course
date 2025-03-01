@@ -138,4 +138,39 @@ z = Math.sign(x);
 let max = Math.max(x, y, z);
 let min = Math.min(x, y, z);*/
 
+// ! If statements - Episode 10
+
+/*let age = 25;
+
+if(age >= 18){
+    console.log("You are old enough to enter this site");
+} else {
+    console.log("You must be 18+ to enter this site");
+}
+
+
+let isStudent = true;
+
+if(isStudent){
+    console.log("You are a student");
+} else {
+    console.log("You are not a student");
+}
+
+let age1 = 20;
+let hasLicense = false;
+
+if(age1 >= 16) {
+    console.log("You are old enough to drive");
+    if (hasLicense) {
+        console.log("You have your license");
+    } else {
+        console.log("You do not have your license yet");
+    }
+} else if (age < 0) {
+    console.log("Your age can't be below 0");
+} else {
+    console.log("You must be at least 16 to have a licence");
+}*/
+
 

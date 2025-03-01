@@ -52,3 +52,15 @@ students--;
 
 
 let result = 1 + 2 * 3 + 4 ** 2; */
+
+// ! Accept user input - Episode 4
+
+/*let username;
+
+username = window.prompt("What's your username? ");
+
+let username2;
+document.getElementById("mySubmit").onclick = function(){
+    username2 = document.getElementById("myText").value;
+    document.getElementById("h1").textContent = `Hello ${username2}`;
+}*/

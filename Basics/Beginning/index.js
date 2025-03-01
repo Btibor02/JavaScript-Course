@@ -86,3 +86,26 @@ let z1 = ""
 x1 = Number(x1); // ? 0
 y1 = String(y1); // ? 
 z1 = Boolean(z1); // ? false */
+
+// ! Constants - Episode 6
+
+
+// ? const = a variable that can't be changed
+
+/*const PI = 3.14;
+let radius;
+let circumference;
+
+radius = window.prompt("Enter the radius of a circle");
+radius = Number(radius);
+
+circumference = 2 * PI * radius;
+
+document.getElementById("mySubmitRadius").onclick = function(){
+   radius = document.getElementById("myTextRadius").value;
+   radius = Number(radius);
+   circumference = 2 * PI * radius;
+   document.getElementById("p5").textContent = circumference + " cm";
+}*/
+
+

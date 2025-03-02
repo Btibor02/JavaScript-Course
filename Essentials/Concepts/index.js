@@ -63,12 +63,29 @@ fruits.sort().reverse();*/
 
 // ! Spread operator - Episode 26
 
+// ? spread = expands an array into seperate elements (...)
+
 /*let numbers = [1, 2, 3, 4, 5];
 
-let max = Math.max(...numbers); // '...' unpacks the elements in for example an array 
+let max = Math.max(...numbers);
 
 let username = "Teszt Elek";
 let letters = [...username].join("-");
 
+let combinedArray = [...numbers, ... letters, "eggs"];
 */
 
+// ! Rest parameters - Episode 27
+
+// ? rest = bundles seperate elements into an array (...rest)
+
+function openFridge(...foods) {
+    console.log(...foods);
+}
+
+const food1 = "pizza";
+const food2 = "hamburger";
+const food3 = "hotdog";
+const food4 = "sushi";
+
+openFridge(food1, food2, food3, food4);

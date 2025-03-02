@@ -300,3 +300,26 @@ username4 = username4.trim().charAt(0).toUpperCase() + username4.trim().slice(1)
     NOT = ! 
 */
 
+// ! Strict equality - Episode 18
+
+/*? 
+    = assignment operator
+    == comparison operator
+    === strict equality operator (compare if values & datatype are equal)
+    != inequality operator
+    !== strict inequality operator
+
+const PI = 3.14;
+if(PI == "3.14"){
+    console.log("That is PI"); // <--
+} else {
+    console.log("That is not PI"); 
+}
+
+if(PI === "3.14"){
+    console.log("That is PI");
+} else {
+    console.log("That is not PI"); // <--
+}
+
+*/

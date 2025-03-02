@@ -326,7 +326,7 @@ if(PI === "3.14"){
 
 // ! While loops & For loops - Episode 19-20
 
-let username = "";
+/*let username = "";
 
 while(username === ""){
     username = window.prompt(`Enter your name`);
@@ -335,4 +335,4 @@ while(username === ""){
 
 for(let i = 0; i <= 2; i++){
     console.log("Hello");
-}
+}*/

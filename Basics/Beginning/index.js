@@ -200,3 +200,13 @@ mySubmitCard.onclick = function(){
         paymentResult.textContent = `You must select a payment method!`;
     }
 }*/
+
+// ! Ternary operator - Episode 12
+
+// ? Ternary operator = condition ? codeIfTrue : codeIfFalse;
+
+/*let age = 21;
+
+let message = age >= 18 ? "You're an adult" : "You're a minor";
+console.log(message);*/
+

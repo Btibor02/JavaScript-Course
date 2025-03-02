@@ -60,3 +60,15 @@ for (let fruit of fruits){
 
 fruits.sort();
 fruits.sort().reverse();*/
+
+// ! Spread operator - Episode 26
+
+/*let numbers = [1, 2, 3, 4, 5];
+
+let max = Math.max(...numbers); // '...' unpacks the elements in for example an array 
+
+let username = "Teszt Elek";
+let letters = [...username].join("-");
+
+*/
+

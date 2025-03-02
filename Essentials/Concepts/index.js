@@ -22,4 +22,16 @@ function add(x, y){
 
 let answer = add(5, 15);*/
 
+// ! Variable scope - Episode 23
+
+/*let x = 3; // global scope
+
+function function1() {
+    let x = 1; //local scope
+}
+
+function function1() {
+    let x = 2;
+}*/
+
 

@@ -210,3 +210,34 @@ mySubmitCard.onclick = function(){
 let message = age >= 18 ? "You're an adult" : "You're a minor";
 console.log(message);*/
 
+// ! Switches - Episode 13
+
+/*let day = 1;
+
+if (day == 1){
+    console.log("It is Monday");
+} else if (day == 2){
+    console.log("It is Tuesday"); 
+} else if (day == 3){
+    console.log("It is Wednesday");
+} else {
+    console.log("Error!");
+} // This can be written as: 
+
+switch(day){
+    case 1:
+        console.log("It is Monday");
+        break; // ? Important to break out!
+    case 2:
+        console.log("It is Tuesday");
+        break;
+    case 3:
+        console.log("It is Wednesday");
+        break;
+    default:
+        console.log("Error!");
+        break;
+}*/
+
+
+

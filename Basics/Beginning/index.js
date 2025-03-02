@@ -241,7 +241,7 @@ switch(day){
 
 // ! String methods - Episode 14
 
-let username3 = "TesztElek   ";
+/*let username3 = "TesztElek   ";
 
 let firstLetter = username3.charAt(0)
 let indexOfLetterT = username3.indexOf("t");
@@ -255,3 +255,19 @@ username3 = username3.toLowerCase(); // ? all lowercase
 let result = username3.startsWith("T");
 let result2 = username3.endsWithWith("k");
 let result3 = username3.includes(" ");
+
+let phoneNumber = "123-456-789"
+phoneNumber = phoneNumber.replaceAll("-", "");
+phoneNumber = phoneNumber.padStart(15, "0"); // ? pads the string until 15 char (also padEnd) */
+
+// ! String slicing - Episode 15
+
+// ? string.slice(start, end) - end is exclusive
+
+/*const fullName1 = "Teszt Elek";
+let firstName1 = fullName1.slice(0, 5);
+let lastChar = fullName1.slice(-1);
+
+let firstName2 = fullName1.slice(0, fullName1.indexOf(" "));
+let lastName = fullName1.slice(fullName1.indexOf(" ") + 1);*/
+

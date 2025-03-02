@@ -34,4 +34,3 @@ function function1() {
     let x = 2;
 }*/
 
-

@@ -239,5 +239,19 @@ switch(day){
         break;
 }*/
 
+// ! String methods - Episode 14
 
+let username3 = "TesztElek   ";
 
+let firstLetter = username3.charAt(0)
+let indexOfLetterT = username3.indexOf("t");
+let lastIndexOfE = username3.lastIndexOf("e");
+let stringLenght = username3.length;
+
+username3 = username3.trim(); // ? remove whitespace
+username3 = username3.toUpperCase(); // ? all uppercase
+username3 = username3.toLowerCase(); // ? all lowercase
+
+let result = username3.startsWith("T");
+let result2 = username3.endsWithWith("k");
+let result3 = username3.includes(" ");

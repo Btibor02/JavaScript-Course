@@ -79,7 +79,7 @@ let combinedArray = [...numbers, ... letters, "eggs"];
 
 // ? rest = bundles seperate elements into an array (...rest)
 
-function openFridge(...foods) {
+/*function openFridge(...foods) {
     console.log(...foods);
 }
 
@@ -88,4 +88,4 @@ const food2 = "hamburger";
 const food3 = "hotdog";
 const food4 = "sushi";
 
-openFridge(food1, food2, food3, food4);
+openFridge(food1, food2, food3, food4);*/

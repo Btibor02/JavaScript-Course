@@ -271,3 +271,24 @@ let lastChar = fullName1.slice(-1);
 let firstName2 = fullName1.slice(0, fullName1.indexOf(" "));
 let lastName = fullName1.slice(fullName1.indexOf(" ") + 1);*/
 
+// ! Method chaining - Episode 16
+
+/*let username4 = window.prompt("Enter your username");
+
+// Without
+
+
+username4 = username4.trim();
+let letter = username4.charAt(0);
+letter = letter.toUpperCase();
+
+let extraChars = username4.slice(1);
+extraChars = extraChars.toLowerCase();
+
+username4 = letter + extraChars;
+
+// With
+
+username4 = username4.trim().charAt(0).toUpperCase() + username4.trim().slice(1).toLowerCase();*/
+
+

@@ -277,7 +277,6 @@ let lastName = fullName1.slice(fullName1.indexOf(" ") + 1);*/
 
 // Without
 
-
 username4 = username4.trim();
 let letter = username4.charAt(0);
 letter = letter.toUpperCase();
@@ -291,4 +290,13 @@ username4 = letter + extraChars;
 
 username4 = username4.trim().charAt(0).toUpperCase() + username4.trim().slice(1).toLowerCase();*/
 
+
+// ! Logical operators - Episode 17
+
+/*  used to combine boolean values
+
+    AND = &&
+    OR = ||
+    NOT = ! 
+*/
 

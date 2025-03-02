@@ -34,3 +34,29 @@ function function1() {
     let x = 2;
 }*/
 
+// ! Arrays - Episode 25
+
+/*let fruits = ["apple", "banana", "grape"];
+
+let firstFruit = fruits[0];
+
+fruits[3] = "orange";
+fruits.push("coconut");
+fruits.pop();
+
+fruits.unshift("mango"); // add to beginning
+fruits.shift(); // remove from beginning
+
+let numOfFruits = fruits.length;
+let index = fruits.indexOf("apple");
+
+for(let i = 0; i < fruits.length; i++){
+    console.log(fruits[i]);
+} 
+
+for (let fruit of fruits){
+    console.log(fruit);
+}
+
+fruits.sort();
+fruits.sort().reverse();*/

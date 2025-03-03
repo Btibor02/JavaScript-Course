@@ -149,3 +149,53 @@ class Fish extends Animal{
 
 const rabbit = new Rabbit("rabbit", 1, 25);
 const fish= new Fish("fish", 2, 12);*/
+
+// ! Getter & Setters - Episode 44
+
+// ? getter = special method that makes a property readable
+// ? setter = special method that makes a property writeable
+
+/*class Rectangle{
+    constructor(width, height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    set width(newWidth){
+        if(newWidth > 0){
+            this._width = newWidth
+        } else {
+            console.error("Width must be a positive number");
+        }
+    }
+
+    set height(newheight){
+        if(newheight > 0){
+            this._height = newheight
+        } else {
+            console.error("Height must be a positive number");
+        }
+    }
+
+    get width(){
+        return this._width.toFixed(1);
+    }
+    get height(){
+        return this._height;
+    }
+
+    get area(){
+        return this._width * this._height;
+    }
+}
+
+const rectangle = new Rectangle(4, 5);
+
+console.log(rectangle.width);
+console.log(rectangle.area);
+
+rectangle.width = 10;
+rectangle.height = 6;
+
+console.log(rectangle.width);*/
+

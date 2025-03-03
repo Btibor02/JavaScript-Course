@@ -87,3 +87,36 @@ console.log(MathUtil.PI);
 console.log(MathUtil.getDiameter(25));
 console.log(MathUtil.getCircumference(10));*/
 
+// ! Inheritence - Episode 42
+
+/*class Animal{
+    alive = true;
+
+    eat(){
+        console.log(`This ${this.name} is eating`);
+    }
+    sleep(){
+        console.log(`This ${this.name} is sleeping`);
+    }
+}
+
+class Rabbit extends Animal{
+    static name = "rabbit";
+}
+
+class Fish extends Animal{
+    static name = "fish";
+    swim(){
+        console.log(`${this.name} is swimming`);
+    }
+}
+
+const rabbit = new Rabbit();
+const fish = new Fish();
+
+console.log(rabbit.alive);
+fish.eat();
+
+fish.alive = false;
+
+fish.swim();*/

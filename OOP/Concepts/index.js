@@ -288,3 +288,18 @@ class Address{
 
 const person1 = new Person("Teszt", 30, 
     "124 Teszt St.", "Bikini Bottom", "Int. Waters");*/
+
+
+// ! Arrays of objects - Episode 47
+
+/*const fruits = [{name: "apple", color: "red"},
+                {name: "orange", color: "orange"},
+                {name: "banana", color: "yellow"},
+                {name: "coconut", color: "white"},
+                {name: "pineapple", color: "yellow"}];
+
+console.log(fruits[0].name);
+
+fruits.push({name: "grapes", color: "purple"});*/
+
+

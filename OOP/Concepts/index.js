@@ -64,3 +64,26 @@ const product1 = new Product("Shirt", 19.99);
 const product = new Product("Pants", 14.99);
 
 product1.displayProduct();*/
+
+// ! STATIC keyword - Episode 41
+
+// ? static = keyword that defines properties or methods 
+// ?            that belong to a class itself rather than 
+// ?            the object created from that class
+
+/*class MathUtil{
+    static PI = 3.14;
+
+    static getDiameter(radius){
+        return radius * 2;
+    }
+
+    static getCircumference(radius){
+        return 2 * this.PI * radius;
+    }
+}
+
+console.log(MathUtil.PI);
+console.log(MathUtil.getDiameter(25));
+console.log(MathUtil.getCircumference(10));*/
+

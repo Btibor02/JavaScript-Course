@@ -191,4 +191,22 @@ const squares = numbers.map(function(element){
     return Math.pow(element, 2);
 });*/
 
+// ! Arrow function - Episode 36
 
+// ? (parameters) => some code
+
+/*const hello = (name) => console.log(`Hello ${name}!`);
+
+const hello2 = (name) => {
+    console.log(`Hello ${name}`)
+    console.log("How are you?")
+};
+
+hello("Teszt");
+hello2("Teszt");
+
+setTimeout(() => console.log("Hello"), 3000);
+
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const squares = numbers.map((element) => Math.pow(element, 2));*/

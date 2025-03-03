@@ -148,3 +148,21 @@ function isEven(element) {
     return element % 2 === 0;
 }*/
 
+// ! .reduce() - Episode 34
+
+// ? .reduce() = reduce the elements of an array to a single value
+
+/*function function1(previousElement, nextElement) {
+    return previousElement + nextElement;
+}
+
+const prices = [12, 25, 37, 5, 20];
+
+const total = prices.reduce(sum);
+
+console.log(total);
+
+function sum(accumulator, element) {
+    return accumulator + element;
+}*/
+

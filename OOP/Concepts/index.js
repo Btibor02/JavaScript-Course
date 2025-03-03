@@ -313,4 +313,23 @@ fruits.push({name: "grapes", color: "purple"});*/
 fruits.sort((a, b) => a.price - b.price);
 fruits.sort((a, b) => b.price - a.price); // reverse order*/
 
+// ! Dates - Episode 50
+
+// ? Date(year, month, day, hour, minute, second, ms)
+
+/*const date = new Date(); // current date and time
+const date2 = new Date("2024-01-02T12:00:00Z");
+const date3 = new Date(2024, 0, 1, 2, 3, 4, 5);
+
+const year = date.getFullYear();
+const month = date.getMonth();
+const day = date.getDate();
+const hour = date.getHours();
+// ... minutes, seconds
+const dayOfWeek = date.getDay(); // Sunday - 0, Monday - 1
+
+date.setFullYear(2024);
+// ... month, day so on*/
+
+
 

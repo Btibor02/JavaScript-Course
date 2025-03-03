@@ -120,3 +120,32 @@ fish.eat();
 fish.alive = false;
 
 fish.swim();*/
+
+// ! SUPER keyword - Episode 43
+
+// ? super = used in classes to call the constructor 
+// ?            or access the properties and methods of a parent
+
+/*class Animal{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+}
+
+class Rabbit extends Animal{
+    constructor(runSpeed){
+        super(name, age);
+        this.runSpeed = runSpeed
+    }
+}
+
+class Fish extends Animal{
+    constructor(swimSpeed){
+        super(name, age);
+        this.swimSpeed = swimSpeed
+    }
+}
+
+const rabbit = new Rabbit("rabbit", 1, 25);
+const fish= new Fish("fish", 2, 12);*/

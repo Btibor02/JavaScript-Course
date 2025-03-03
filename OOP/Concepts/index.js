@@ -302,4 +302,15 @@ console.log(fruits[0].name);
 
 fruits.push({name: "grapes", color: "purple"});*/
 
+// ! sort() - Episode 48
+
+/*const fruits = [{name: "apple", color: "red", price: 25.1, size: 5},
+    {name: "orange", color: "orange", price: 22.5, size: 8},
+    {name: "banana", color: "yellow", price: 12.3, size: 15},
+    {name: "coconut", color: "white", price: 1.5, size: 1},
+]
+
+fruits.sort((a, b) => a.price - b.price);
+fruits.sort((a, b) => b.price - a.price); // reverse order*/
+
 

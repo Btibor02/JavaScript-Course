@@ -94,7 +94,7 @@ openFridge(food1, food2, food3, food4);*/
 
 // ? callback = a function that is passed as an argument to another function
 
-sum(displayConsole, 10, 5); // ? Don't include ()!!
+/*sum(displayConsole, 10, 5); // ? Don't include ()!!
 
 function sum(callback, x, y) {
     let result = x + y;
@@ -103,4 +103,20 @@ function sum(callback, x, y) {
 
 function displayConsole(result) {
     console.log(result)
+}*/
+
+// ! .forEach() - Episode 31
+
+/*let numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(double);
+numbers.forEach(display);
+
+function double(element, index, array) {
+    array[index] = element * 2;
 }
+
+function display(element) {
+    console.log(element);
+}*/
+

@@ -18,7 +18,7 @@ person.sayHello();*/
 // ? reference to the object where THIS is used
 // ? person.name = this.name
 
-const person = {
+/*const person = {
     firstName: "Spongebob",
     lastName: "Squarepants",
     favFood: "hamburger",
@@ -27,4 +27,21 @@ const person = {
     },
 }
 
-person.sayHello();
+person.sayHello();*/
+
+// ! Constructors - Episode 39
+
+/*function Car(make, model, year, color){
+    this.make = make,
+    this.model = model,
+    this.year = year,
+    this.color = color
+}
+
+const car1 = new Car("Ford", "Mustang", 2024, "red");
+
+console.log(car1.make);
+
+const car2 = new Car("Chevrolet", "Camaro", 2025, "blue");
+
+console.log(car2.model);*/

@@ -199,3 +199,51 @@ rectangle.height = 6;
 
 console.log(rectangle.width);*/
 
+// ! Destructuring - Episode 45
+
+// ? destructuring = extract values from arrays and objects, 
+// ?                then assign them to variables in a convenient way
+// ?                [] = to perform array destructuring
+// ?                {} = to perform object destructuring
+
+/*let a = 1;
+let b = 2;
+
+[a, b] = [b, a]; // a = 2, b = 1
+
+const colors = ["red", "green", "blue", "black", "white"]; // swap 2 elements
+
+[colors[0], colors[4]] = [colors[4], colors[0]];
+
+
+const [firstColor, secondColor, thirdColor, ...extraColors] = colors;
+console.log(firstColor); // white
+console.log(extraColors); // "black", "white"
+
+//Extract values from object
+const person1 = {
+    firstName: "Spongebob",
+    lastName: "Squarepants",
+    age: 24,
+    job: "Fry Cook",
+}
+
+const person2 = {
+    firstName: "Patrick",
+    lastName: "Star",
+    age: 30,
+}
+
+const {firstName, lastName, age, job} = person1;
+
+console.log(firstName); // Spongebob
+
+const {firstName1, lastName1, age1, job1="Unemployed"} = person2; //default value
+
+//Descturcture in function parameters
+
+function displayPerson({firstName, lastName, age, job}) {
+    console.log(firstName);
+}
+
+displayPerson(person1);*/

@@ -45,3 +45,22 @@ console.log(car1.make);
 const car2 = new Car("Chevrolet", "Camaro", 2025, "blue");
 
 console.log(car2.model);*/
+
+// ! Classes - Episode 40
+
+/*class Product{
+    constructor(name, price){
+        this.name = name;
+        this.price = price;
+    }
+
+    displayProduct(){
+        console.log(`Product: ${this.name}`);
+        console.log(`Price: $${this.price.toFixed(2)}`);
+    }
+}
+
+const product1 = new Product("Shirt", 19.99);
+const product = new Product("Pants", 14.99);
+
+product1.displayProduct();*/

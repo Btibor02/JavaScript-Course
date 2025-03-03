@@ -331,5 +331,20 @@ const dayOfWeek = date.getDay(); // Sunday - 0, Monday - 1
 date.setFullYear(2024);
 // ... month, day so on*/
 
+// ! Closures - Episode 51
+
+// ? a function defined inside of another function,
+// ? the inner function has access to the variables
+// ?    and scope of the outer function
+
+/*function outer(){
+    let message = "Hello";
+    function inner(){
+        console.log(message);
+    }
+
+    inner();
+}*/
+
 
 

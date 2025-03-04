@@ -350,13 +350,23 @@ date.setFullYear(2024);
 
 // ? setTimeout(callback, delay)
 
-function sayHello() {
+/*function sayHello() {
     window.alert("Hello!");
 }
 
 setTimeout(sayHello, 3000); // 3 seconds
 
 const timeoutId = setTimeout(() => window.alert("Hello"), 3000);
-clearTimeout(timeoutId);
+clearTimeout(timeoutId);*/
+
+// ! ES6 modules - Episode 55
+
+// ? an external file that contains reusable code, which can be imported
+
+/*import {PI, getCircumference} from './mathUtil.js';
+
+console.log(PI);
+const result = getCircumference(15);
+console.log(result);*/
 
 

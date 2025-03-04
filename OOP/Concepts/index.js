@@ -387,4 +387,21 @@ function func2() {
 
 func1(func2);*/
 
+// ! Error handling - Episode 57
+
+/*try {
+    console.log(x);
+    // NETWORK ERRORS
+    // PROMISE REJECTION
+    // SECURITY ERRORS
+} catch (error) {
+    console.error(error);
+} finally{
+    console.log("File closed");
+    // CLOSE FILES
+    // CLOSE CONNECTIONS
+    // RELASE RESOURCES
+}
+
+console.log("End of program");*/
 

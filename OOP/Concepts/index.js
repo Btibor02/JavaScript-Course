@@ -346,5 +346,17 @@ date.setFullYear(2024);
     inner();
 }*/
 
+// ! setTimeout() - Episode 52
+
+// ? setTimeout(callback, delay)
+
+function sayHello() {
+    window.alert("Hello!");
+}
+
+setTimeout(sayHello, 3000); // 3 seconds
+
+const timeoutId = setTimeout(() => window.alert("Hello"), 3000);
+clearTimeout(timeoutId);
 
 

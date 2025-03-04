@@ -38,7 +38,25 @@ list.forEach(list => {
     list.style.backgroundColor = "pink";
 })*/
 
+// ! DOM navigation - Episode 61
 
+// ? -------- .firstElementChild --------
+/*const element = document.getElementById("vegetables");
+const firstChild = element.firstElementChild; // potato
 
+// ? -------- .lastElementChild --------
+const lastChild = element.lastElementChild; // salad
 
+// ? -------- .nextElementChild --------
+const element1 = document.getElementById("paprika");
+const nextSibling = element1.nextElementSibling; // salad
+
+// ? -------- .previousElementChild --------
+const previousSibling = element1.previousElementSibling; // potato
+
+// ? -------- .parentElement --------
+const parent = element1.parentElement; // vegetables
+
+// ? -------- .children --------
+const children = element.children; // potato, paprika, salad*/
 

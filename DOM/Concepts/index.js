@@ -60,3 +60,15 @@ const parent = element1.parentElement; // vegetables
 // ? -------- .children --------
 const children = element.children; // potato, paprika, salad*/
 
+// ! Add & Change HTML - Episode 62
+
+const newH1 = document.createElement("h1");
+
+newH1.textContent = "I like pizza";
+newH1.id = "myH1"
+
+document.body.append(newH1);
+document.body.prepend(newH1);
+document.getElementById("box1").append(newH1);
+
+document.body.removeChild(newH1);

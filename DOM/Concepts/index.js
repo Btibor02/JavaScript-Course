@@ -62,7 +62,7 @@ const children = element.children; // potato, paprika, salad*/
 
 // ! Add & Change HTML - Episode 62
 
-const newH1 = document.createElement("h1");
+/*const newH1 = document.createElement("h1");
 
 newH1.textContent = "I like pizza";
 newH1.id = "myH1"
@@ -71,4 +71,29 @@ document.body.append(newH1);
 document.body.prepend(newH1);
 document.getElementById("box1").append(newH1);
 
-document.body.removeChild(newH1);
+document.body.removeChild(newH1);*/
+
+// ! Mouse events - Episode 63
+
+/*const myBox = document.getElementById("myBox");
+
+function changeColor(event) {
+    event.target.style.backgroundColor = "red";
+}
+
+myBox.addEventListener("click", changeColor);
+
+myBox.addEventListener("click", function(event){
+    event.target.textContent = "Ouch!";
+});
+
+
+myBox.addEventListener("mouseover", event => {
+    event.target.style.backgroundColor = "yellow";
+    event.target.textContent = "Don't do it!";
+});
+
+myBox.addEventListener("mouseout", event => {
+    event.target.style.backgroundColor = "aquamarine";
+    event.target.textContent = "Click me!";
+});*/

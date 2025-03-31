@@ -185,4 +185,34 @@ buttons.forEach(button2 =>{
     });
 });*/
 
+// ! .classList - Episode 67
+
+// classList = Element property in JS used to interact
+//             with an elemen'ts list of classes (CSS classes)
+//             Allows you to make reusable classes for many elements
+
+
+/*const myButton = document.getElementById("myButton");
+
+myButton.classList.add("enabled");
+
+//myButton.classList.remove("enabled");
+
+myButton.addEventListener("mouseover", event => {
+    myButton.classList.toggle("hover");
+});
+
+myButton.addEventListener("mouseout", event => {
+    myButton.classList.toggle("hover");
+});
+
+myButton.addEventListener("click", event => {
+    if(event.target.classList.contains("disabled")){
+        event.target.textContent = "Disabled"
+    } else{
+        myButton.classList.replace("enabled", "disabled");
+    }
+});
+*/
+
 

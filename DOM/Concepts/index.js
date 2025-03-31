@@ -97,3 +97,41 @@ myBox.addEventListener("mouseout", event => {
     event.target.style.backgroundColor = "aquamarine";
     event.target.textContent = "Click me!";
 });*/
+
+// ! Key events - Episode 64
+
+/*const myBox = document.getElementById("myBox");
+const moveAmount = 10;
+let x = 0;
+let y = 0;
+
+document.addEventListener("keydown", event => {
+    console.log(`Key down = ${event.key}`);
+    if(event.key.startsWith("Arrow")){
+        switch (event.key) {
+            case "ArrowUp":
+                y -= moveAmount;
+                break;
+            case "ArrowDown":
+                y += moveAmount;
+                break;
+            case "ArrowLeft":
+                x -= moveAmount;
+                break;
+            case "ArrowRight":
+                x += moveAmount;
+                break;
+            default:
+                break;
+        }
+
+        myBox.style.top = `${y}px`;
+        myBox.style.left = `${x}px`;
+    }
+});
+
+document.addEventListener("keyup", event => {
+    console.log(`Key up = ${event.key}`);
+});*/
+
+

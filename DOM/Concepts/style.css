@@ -14,3 +14,7 @@
     text-align: center;
     position: relative;
 }
+
+#myButton{
+    font-size: 2rem;
+}

@@ -149,4 +149,40 @@ myButton.addEventListener("click", event => {
     }
 });*/
 
+// ! NodeList - Episode 66
+
+// NodeList = Static collection of HTML elements by (id, class, element)
+//            Similar to an array, but no (map, filter, reduce)
+//            NodeList won't update to automatically reflect changes
+
+/*let buttons = document.querySelectorAll(".myButtons");
+
+buttons.forEach(button => {
+    button.style.backgroundColor = "green";
+});
+
+buttons.forEach(button1 => {
+    button1.addEventListener("click", event =>{
+        event.target.style.backgroundColor = "red";
+    });
+});
+
+// ? Add an element
+const newButton = document.createElement("button");
+newButton.textContent = "Button 5";
+newButton.classList = "myButtons";
+
+document.body.appendChild(newButton);
+
+buttons = document.querySelectorAll(".myButtons");
+
+// ? Remove element
+buttons.forEach(button2 =>{
+    button2.addEventListener("click", event => {
+        event.target.remove();
+        buttons = document.querySelectorAll(".myButtons");
+        console.log(buttons);
+    });
+});*/
+
 

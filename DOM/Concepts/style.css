@@ -18,3 +18,12 @@
 #myButton{
     font-size: 2rem;
 }
+
+.myButtons{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgb(98, 187, 187);
+}

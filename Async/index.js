@@ -135,7 +135,7 @@ doChores();*/
 //        Used for exchanging data between a server and a web application
 //        JSON files {key:value} OR [value1, value2, value3] OR [{}, {}, {}]
 
-const names = ["Eric", "Johan", "Emma", "Fred"];
+/*const names = ["Eric", "Johan", "Emma", "Fred"];
 
 const jsonString = JSON.stringify(names);
 console.log(jsonString);
@@ -149,5 +149,39 @@ console.log(parsedData);
 fetch("people.json")
     .then(response => response.json())
     .then(values => values.forEach(value => console.log(value.name)))
-    .catch(err => console.error(err));
+    .catch(err => console.error(err));*/
+
+// ! Fetch data from an API - Episode 74
+
+/*fetch("https://pokeapi.co/api/v2/pokemon/ditto")
+    .then(response => {
+        if (!response.ok){
+            throw new Error("Could not fetch resource");
+        }
+        return response.json();
+    })
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
+
+
+fetchData();
+async function fetchData() {
+    try {
+        const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
+
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
+        if (!response.ok){
+            throw new Error("Could not fetch resource");
+        }
+
+        const data = await response.json();
+        const pokemonSprite = data.sprites.front_default;
+        const imgElement = document.getElementById("pokemonSprite");
+
+        imgElement.src = pokemonSprite;
+        imgElement.style.display = "block";
+    } catch (error) {
+        console.error(error);
+    }
+}*/
 

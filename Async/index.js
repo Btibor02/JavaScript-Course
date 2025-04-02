@@ -128,3 +128,26 @@ async function doChores() {
 }
 
 doChores();*/
+
+// ! JSON files - Episode 73
+
+// JSON = (JavaScript Object Notation) data-interchange format
+//        Used for exchanging data between a server and a web application
+//        JSON files {key:value} OR [value1, value2, value3] OR [{}, {}, {}]
+
+const names = ["Eric", "Johan", "Emma", "Fred"];
+
+const jsonString = JSON.stringify(names);
+console.log(jsonString);
+
+
+const person = `{ "name": "Fred", "age": 25, "isEmployed": true, "hobbies": ["Soccer", "Karate", "Cooking"]}`;
+
+const parsedData = JSON.parse(person);
+console.log(parsedData);
+
+fetch("people.json")
+    .then(response => response.json())
+    .then(values => values.forEach(value => console.log(value.name)))
+    .catch(err => console.error(err));
+

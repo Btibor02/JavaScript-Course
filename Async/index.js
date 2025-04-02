@@ -74,3 +74,57 @@ walkDog1().then(value => {console.log(value); return cleanKitchen1()})
             .then(value => {console.log(value); return takeOutThrash1()})
             .then(value => {console.log(value); console.log("You finished")})
             .catch(error => console.error(error));*/
+
+// ! Async/Await - Episode 72
+
+// Await = makes a function return a promise
+// Await = makes an async function wait for a promise
+
+/*async function walkDog1(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const dogWalked = true;
+
+            if(dogWalked) {
+                resolve("You walk the dog");
+            } else {
+                reject("You DIDN'T walk the dog");
+            }
+        }, 1500);
+    });
+}
+
+function cleanKitchen1() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("You clean the kitchen");
+        }, 2500);
+    });
+}
+
+function takeOutThrash1() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+           resolve("You take out the thrash");
+        }, 500);
+    });  
+}
+
+async function doChores() {
+    try{
+        const walkDogResult = await walkDog1();
+        console.log(walkDogResult);
+    
+        const cleanKitchenResult = await cleanKitchen1();
+        console.log(cleanKitchenResult);
+    
+        const takeOutThrashResult = await takeOutThrash1();
+        console.log(takeOutThrashResult);
+    
+        console.log("You finished")
+    } catch(err) {
+        console.error(err);
+    }
+}
+
+doChores();*/
